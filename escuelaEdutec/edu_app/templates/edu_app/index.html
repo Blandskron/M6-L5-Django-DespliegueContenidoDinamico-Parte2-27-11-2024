@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Bienvenida{% endblock %}
+{% block content %}
+<div class="text-center mt-5">
+    
+    <h1 class="display-4">{{ message }}</h1>
+    <p class="lead">{{ description }}</p>
+    <hr class="my-4">
+    <p>{{ cta }}</p>
+    <a class="btn btn-primary btn-lg" href="/estudiantes/" role="button">Explorar Estudiantes</a>
+</div>
+{% endblock %}
